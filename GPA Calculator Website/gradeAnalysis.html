@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Analysis</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h2 {
+        color: #d681c1; 
+        font-weight: bold; 
+        font-size: 36px;
+      }
+      h3 {
+        color: #e7e1e4;
+        font-weight: bold; 
+        font-size: 20px;
+      }
+     
+      ul.grades {
+        list-style-type: none; 
+        padding: 1;
+      }
+  
+      /* Styling for each list item */
+      ul.grades li {
+        background-color: #efcff4; 
+        font-weight: bold;
+        margin-bottom: 10px; 
+        padding: 5px; 
+        border: 2px solid #1c1a1a; 
+        font-size: 18px;
+        color: #000000
+        
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a class="active" href="#">Grade Analysis</a></li>
+          <li><a href="./termsOfService.html">Terms of Service</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+    <main>
+      <section class="background-img">
+        <!-- Create a filter -->
+        <div class="filter"></div>
+        <h2>Grade Analysis！</h2>
+      </section>
+      <section>
+        <h3>Terms of Service</h3>
+        <ul class="grades">
+          <li>A - Excellent</li>
+          <li>B - Good</li>
+          <li>C - Average</li>
+          <li>D - Below Average</li>
+        </ul>
+      </section>
+  </body>
+</html>
